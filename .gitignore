@@ -2,6 +2,7 @@
 /public/build/images/glyphicons-*
 
 .php-version
+data/database_test.sqlite.original
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -22,3 +23,7 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
+
+###> friends-of-behat/symfony-extension ###
+/behat.yml
+###< friends-of-behat/symfony-extension ###
